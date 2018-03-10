@@ -3,10 +3,10 @@ var randomNum = 18 + Math.floor(Math.random() * 120);
 $("#numToGuess").html(randomNum);
 console.log(randomNum);
 
-var blueGem = 1 + Math.floor(Math.random() * 12);
-var pinkGem = 1 + Math.floor(Math.random() * 12);
-var greenGem = 1 + Math.floor(Math.random() * 12);
-var purpleGem = 1 + Math.floor(Math.random() * 12);
+var garnet = 1 + Math.floor(Math.random() * 12);
+var citrine = 1 + Math.floor(Math.random() * 12);
+var opal = 1 + Math.floor(Math.random() * 12);
+var amethyst = 1 + Math.floor(Math.random() * 12);
 
 var userTotal = 0;
 var wins = 0;
@@ -17,11 +17,11 @@ $("#losses").html(losses);
 
 var reset = function() {
     userTotal = 0;
-    randomNum = 18 + Math.floor(Math.random() * 120);
-    blueGem = 1 + Math.floor(Math.random() * 12);
-    pinkGem = 1 + Math.floor(Math.random() * 12);
-    greenGem = 1 + Math.floor(Math.random() * 12);
-    purpleGem = 1 + Math.floor(Math.random() * 12);
+    randomNum = 18 + Math.floor(Math.random() * 102)+19;
+    garnet = 1 + Math.floor(Math.random() * 12)+1;
+    citrine = 1 + Math.floor(Math.random() * 12)+1;
+    opal = 1 + Math.floor(Math.random() * 12)+1;
+    amethyst = 1 + Math.floor(Math.random() * 12)+1;
     console.log(randomNum);
     $("#numToGuess").html(randomNum);
     $("#totalNum").html(userTotal);
@@ -44,29 +44,29 @@ var winCheck = function() {
     }
 };
 
-$("#purple").on("click", function() {
-    userTotal = userTotal + purpleGem;
+$("#amethyst").on("click", function() {
+    userTotal = userTotal + amethyst;
     console.log(userTotal);
     $("#totalNum").html(userTotal);
     winCheck();
 })
 
-$("#green").on("click", function() {
-    userTotal = userTotal + greenGem;
+$("#opal").on("click", function() {
+    userTotal = userTotal + opal;
     console.log(userTotal);
     $("#totalNum").html(userTotal);
     winCheck();
 })
 
-$("#pink").on("click", function() {
-    userTotal = userTotal + pinkGem;
+$("#citrine").on("click", function() {
+    userTotal = userTotal + citrine;
     console.log(userTotal);
     $("#totalNum").html(userTotal);
     winCheck();
 })
 
-$("#blue").on("click", function() {
-    userTotal = userTotal + blueGem;
+$("#garnet").on("click", function() {
+    userTotal = userTotal + garnet;
     console.log(userTotal);
     $("#totalNum").html(userTotal);
     winCheck();
