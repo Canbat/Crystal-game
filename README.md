@@ -1,5 +1,5 @@
 Crystal-Game
-Is project is to create a number matching with randomly generated number and randomly generated hidden numbers which are inbedded in images.
+Is project is to create a number matching with randomly generated number and randomly generated hidden numbers which are in-bedded in images.
 
 Rules
 You will be given a random number at the start of the game.
