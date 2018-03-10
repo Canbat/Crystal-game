@@ -1,0 +1,29 @@
+.jumbotron {
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-shadow: gray 0.5em 0.5em 0.5em;
+    background: url("../images/gems-cover.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.text-center{
+    color: darkred;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url("../images/mineshaft.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+}
+  
